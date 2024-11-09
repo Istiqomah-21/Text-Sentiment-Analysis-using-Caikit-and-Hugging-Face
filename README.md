@@ -1,7 +1,11 @@
 <h1 align="center"> Text Sentiment Analysis using Caikit and Hugging Face
 
 <p align="center"> Cognitive Class AI ✨
+  
+### What is Caikit?
 
+  Caikit is an AI toolkit that enables users to manage models through a set of developer friendly APIs. It provides a consistent format for creating and using AI models against a wide     variety of data domains and tasks.
+  
 ### Mentee assignment ⏱️
 
    * Task for Mentee from IBM Advance AI Mentor @ Infinite Learning Course 🌐
@@ -71,6 +75,9 @@
         source env/bin/activate
         pip install -r requirements.txt
 
+        # requirements.txt
+        caikit
+        transformers
 
 5. Start Caikit Runtime:
    Launch the Caikit runtime to serve the model for inference.
@@ -78,8 +85,24 @@
        touch start_runtime.py
        python start_runtime.py
 
-6. Sentiment Analysis Testing:
+       # start_runtime.py
+        from caikit.runtime import start_runtime
+
+        if __name__ == "__main__":
+            start_runtime()
+
+7. Sentiment Analysis Testing:
    Run tests to validate the sentiment analysis model's functionality through a client application.
 
        touch client.py
        python client.py
+
+       # client.py
+        import requests
+   
+        url = "http://localhost:5000/predict"  # Sesuaikan URL dengan alamat runtime Anda # Example
+        data = {"text": "I love this product!"}
+        
+        response = requests.post(url, json=data)
+        print("Response:", response.json())
+
