@@ -3,11 +3,12 @@
 <p align="center"> Cognitive Class AI ✨
 
 ### Mentee assignment ⏱️
-Task for Mentee from IBM Advance AI Mentor @ Infinite Learning Course
 
-Completed Course: Practice to Create Text Sentiment Analysis using Caikit and Hugging Face from CognitiveClass.ai 💻
+   * Task for Mentee from IBM Advance AI Mentor @ Infinite Learning Course 🌐
 
-### Tech Stack 🌐 & TOOLS 👩‍💻
+   * Completed Course: Practice to Create Text Sentiment Analysis using Caikit and Hugging Face from CognitiveClass.ai 💻
+
+### Tech Stack & TOOLS 👩‍💻
   <p align="center">
     <a
     <p>
