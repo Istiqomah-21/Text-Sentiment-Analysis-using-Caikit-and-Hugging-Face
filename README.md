@@ -8,7 +8,7 @@
 
    * Completed Course: Practice to Create Text Sentiment Analysis using Caikit and Hugging Face from CognitiveClass.ai 💻
 
-### Tech Stack & TOOLS 👩‍💻
+### Tech Stack & Tools 👩‍💻
   <p align="center">
     <a
     <p>
