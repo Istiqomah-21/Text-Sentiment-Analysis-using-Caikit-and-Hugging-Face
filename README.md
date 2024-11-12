@@ -1,4 +1,4 @@
-<h1 align="center"> Text Sentiment Analysis using Caikit and Hugging Face
+<h1 align="center"> Text Sentiment Analysis using Caikit and Hugging Face.
 
 <p align="center"> Cognitive Class AI ✨
   
